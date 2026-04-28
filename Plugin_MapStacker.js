@@ -13,11 +13,14 @@
 * @on Enable
 * @off Disable
 * @parent settings
-* 
 *
+* @param SourceImage
+* @desc Store image file
+* @type file
+* @dir img/parallaxes
+* @require 1
 *
 */
 
 var Mapstacker_Params = PluginManager.parameters("Plugin_MapStacker");
 var EnableMapStacker = (Mapstacker_Params["EnableMapStacker"] == "true");
-
